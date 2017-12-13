@@ -1,0 +1,395 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AMJoinRequestPacket	packetPrototype.h	/^typedef struct AMJoinRequestPacket {$/;"	s
+AMJoinRequestPacket	packetPrototype.h	/^} AMJoinRequestPacket;$/;"	t	typeref:struct:AMJoinRequestPacket
+AMJoinRequestPacket::MAC	packetPrototype.h	/^	uint8 MAC[6];$/;"	m	struct:AMJoinRequestPacket	access:public
+AMJoinRequestPacket::comfirmedCode	packetPrototype.h	/^	uint8 comfirmedCode[200];$/;"	m	struct:AMJoinRequestPacket	access:public
+AMJoinRequestPacket::portNumber	packetPrototype.h	/^	uint16 portNumber;$/;"	m	struct:AMJoinRequestPacket	access:public
+AMJoinRequestPacket::reserved	packetPrototype.h	/^	uint8 reserved[4];$/;"	m	struct:AMJoinRequestPacket	access:public
+AMJoinRequestPonter	packetPrototype.h	/^typedef AMJoinRequestPacket *AMJoinRequestPonter;$/;"	t
+AMJoinResponsePacket	packetPrototype.h	/^typedef struct AMJoinResponsePacket {$/;"	s
+AMJoinResponsePacket	packetPrototype.h	/^} AMJoinResponsePacket;$/;"	t	typeref:struct:AMJoinResponsePacket
+AMJoinResponsePacket::ack	packetPrototype.h	/^	uint8 ack;$/;"	m	struct:AMJoinResponsePacket	access:public
+AMJoinResponsePointer	packetPrototype.h	/^typedef AMJoinResponsePacket *AMJoinResponsePointer;$/;"	t
+AMRTCTime	packetPrototype.h	/^	uint8  AMRTCTime[6];$/;"	m	struct:TCPPeriodicLinkPacket	access:public
+AMSettingPacket	packetPrototype.h	/^typedef struct AMSettingPacket {$/;"	s
+AMSettingPacket	packetPrototype.h	/^} AMSettingPacket;$/;"	t	typeref:struct:AMSettingPacket
+AMSettingPacket::SettingDate	packetPrototype.h	/^	uint8  SettingDate[255];$/;"	m	struct:AMSettingPacket	access:public
+AMSettingPointer	packetPrototype.h	/^typedef AMSettingPacket *AMSettingPointer;$/;"	t
+AM_JOIN_REQUEST	packetPrototype.h	/^enum PacketType {AM_JOIN_REQUEST = 0x03, AM_JOIN_RESPONSE = 0x04, RTC_UPDATE_REQUEST = 0x05, RTC_UPDATE_RESPONSE = 0x06, PERIODIC_DATA = 0x07, JB_JOIN_REQUEST = 0x08, JB_JOIN_RESPNOSE = 0x09,TCP_PERIODIC_LINK = 0x0a, ARRAY_MANGER_SETTING = 0x0b };$/;"	e	enum:PacketType
+AM_JOIN_RESPONSE	packetPrototype.h	/^enum PacketType {AM_JOIN_REQUEST = 0x03, AM_JOIN_RESPONSE = 0x04, RTC_UPDATE_REQUEST = 0x05, RTC_UPDATE_RESPONSE = 0x06, PERIODIC_DATA = 0x07, JB_JOIN_REQUEST = 0x08, JB_JOIN_RESPNOSE = 0x09,TCP_PERIODIC_LINK = 0x0a, ARRAY_MANGER_SETTING = 0x0b };$/;"	e	enum:PacketType
+AM_JOIN_WHOLE_SIZE	packetPrototype.h	166;"	d
+AM_JRSP_WHOLE_SIZE	packetPrototype.h	167;"	d
+AM_Join	packetProcessing.c	/^void AM_Join(int Remotefd)$/;"	f	signature:(int Remotefd)
+AM_Join	packetProcessing.h	/^void AM_Join(int Remotefd);$/;"	p	signature:(int Remotefd)
+AM_MAC	packetPrototype.h	/^	uint8 AM_MAC[6];$/;"	m	struct:JBJoinRequestPacket	access:public
+AM_SETTING_WHOLE_SIZE	packetPrototype.h	181;"	d
+AM_am_id	mysql_sum.h	25;"	d
+AM_area_id	mysql_sum.h	29;"	d
+AM_col	mysql_sum.h	28;"	d
+AM_insert_time	mysql_sum.h	33;"	d
+AM_ip	mysql_sum.h	30;"	d
+AM_mac	mysql_sum.h	26;"	d
+AM_period	mysql_sum.h	32;"	d
+AM_port	mysql_sum.h	31;"	d
+AM_register_time	mysql_sum.h	34;"	d
+AM_row	mysql_sum.h	27;"	d
+AM_update_time	mysql_sum.h	35;"	d
+ARRAY_MANGER_SETTING	packetPrototype.h	/^enum PacketType {AM_JOIN_REQUEST = 0x03, AM_JOIN_RESPONSE = 0x04, RTC_UPDATE_REQUEST = 0x05, RTC_UPDATE_RESPONSE = 0x06, PERIODIC_DATA = 0x07, JB_JOIN_REQUEST = 0x08, JB_JOIN_RESPNOSE = 0x09,TCP_PERIODIC_LINK = 0x0a, ARRAY_MANGER_SETTING = 0x0b };$/;"	e	enum:PacketType
+AXLE_DUMMY	mysql_sum.c	965;"	d	file:
+BLOCK_SIZE	mystdlib.h	7;"	d
+BL_blockid	mysql_sum.c	978;"	d	file:
+BL_power	mysql_sum.c	979;"	d	file:
+BL_time	mysql_sum.c	980;"	d	file:
+Block_am_id	mysql_sum.h	38;"	d
+Block_block_id	mysql_sum.h	37;"	d
+Block_col	mysql_sum.h	40;"	d
+Block_row	mysql_sum.h	39;"	d
+CHECK_IF_DUMYZERO_EXIST	mysql_sum.c	/^int CHECK_IF_DUMYZERO_EXIST(PeriodicDataPointer pdcPtr,int n, int flag)$/;"	f	signature:(PeriodicDataPointer pdcPtr,int n, int flag)
+CMD_RTC_UPDATE_REQUEST	packetPrototype.h	/^enum RTCCondition {CMD_RTC_UPDATE_REQUEST = 0x0C};$/;"	e	enum:RTCCondition
+DEBUG_PRINT	mystdlib.h	25;"	d
+DEBUG_PRINT	mystdlib.h	27;"	d
+DEBUG_PRINT	mystdlib.h	35;"	d
+DateTime	packetPrototype.h	/^typedef struct DateTime {$/;"	s
+DateTime	packetPrototype.h	/^} DateTime;$/;"	t	typeref:struct:DateTime
+DateTime::date	packetPrototype.h	/^	uint32 date;$/;"	m	struct:DateTime	access:public
+DateTime::hours	packetPrototype.h	/^	uint32 hours;$/;"	m	struct:DateTime	access:public
+DateTime::minutes	packetPrototype.h	/^	uint32 minutes;$/;"	m	struct:DateTime	access:public
+DateTime::months	packetPrototype.h	/^	uint32 months;$/;"	m	struct:DateTime	access:public
+DateTime::years	packetPrototype.h	/^	uint32 years;$/;"	m	struct:DateTime	access:public
+DeviceSpecification	packetPrototype.h	/^	uint8 DeviceSpecification[24];$/;"	m	struct:JBJoinInfoPacket	access:public
+DummyTimeOffset	mysql_sum.c	976;"	d	file:
+Dummy_TEMP	mysql_sum.c	970;"	d	file:
+Dummy_power	mysql_sum.c	969;"	d	file:
+FirmwareVersion	packetPrototype.h	/^	uint8 FirmwareVersion[24];$/;"	m	struct:JBJoinInfoPacket	access:public
+GOOD	packetPrototype.h	/^enum JunctionBoxState {GOOD = 0x00, OFFLINE = 0x01 << 0, OVER_HEAT = 0x01 << 1, OVER_VOLTAGE = 0x01 << 2, OVER_CURRENT  = 0x01 << 3};$/;"	e	enum:JunctionBoxState
+HEADER_CODE	packetPrototype.h	14;"	d
+HardwareVersion	packetPrototype.h	/^	uint8 HardwareVersion[24];$/;"	m	struct:JBJoinInfoPacket	access:public
+INSERT_ALL_BLOCKDATA	mysql_sum.c	/^int  INSERT_ALL_BLOCKDATA()$/;"	f
+INSERT_SJB_PANNEL_Zero	mysql_sum.c	/^int  INSERT_SJB_PANNEL_Zero( char*SJBMAC)$/;"	f	signature:( char*SJBMAC)
+INVALID_BIT	mystdlib.h	9;"	d
+INVALID_BLOCKS	mystdlib.h	11;"	d
+IS_INVALID	mystdlib.h	14;"	d
+IS_VALID	mystdlib.h	13;"	d
+Insert_Dummy_Zero2Pannel_Block_Tab	mysql_sum.c	/^int Insert_Dummy_Zero2Pannel_Block_Tab(PeriodicDataPointer pdcPtr,int n, int flag)$/;"	f	signature:(PeriodicDataPointer pdcPtr,int n, int flag)
+JBJoinInfoPacket	packetPrototype.h	/^typedef struct JBJoinInfoPacket {$/;"	s
+JBJoinInfoPacket	packetPrototype.h	/^} JBJoinInfoPacket;$/;"	t	typeref:struct:JBJoinInfoPacket
+JBJoinInfoPacket::DeviceSpecification	packetPrototype.h	/^	uint8 DeviceSpecification[24];$/;"	m	struct:JBJoinInfoPacket	access:public
+JBJoinInfoPacket::FirmwareVersion	packetPrototype.h	/^	uint8 FirmwareVersion[24];$/;"	m	struct:JBJoinInfoPacket	access:public
+JBJoinInfoPacket::HardwareVersion	packetPrototype.h	/^	uint8 HardwareVersion[24];$/;"	m	struct:JBJoinInfoPacket	access:public
+JBJoinInfoPacket::JB_MAC	packetPrototype.h	/^	uint8 JB_MAC[6];$/;"	m	struct:JBJoinInfoPacket	access:public
+JBJoinInfoPacket::ManufactureData	packetPrototype.h	/^	uint8 ManufactureData[8];$/;"	m	struct:JBJoinInfoPacket	access:public
+JBJoinInfoPacket::SerialNumber	packetPrototype.h	/^	uint8 SerialNumber[24];$/;"	m	struct:JBJoinInfoPacket	access:public
+JBJoinInfoPonter	packetPrototype.h	/^typedef JBJoinInfoPacket *JBJoinInfoPonter;$/;"	t
+JBJoinRequestPacket	packetPrototype.h	/^typedef struct JBJoinRequestPacket {$/;"	s
+JBJoinRequestPacket	packetPrototype.h	/^} JBJoinRequestPacket;$/;"	t	typeref:struct:JBJoinRequestPacket
+JBJoinRequestPacket::AM_MAC	packetPrototype.h	/^	uint8 AM_MAC[6];$/;"	m	struct:JBJoinRequestPacket	access:public
+JBJoinRequestPacket::nJunctionBoxes	packetPrototype.h	/^	uint8 nJunctionBoxes;$/;"	m	struct:JBJoinRequestPacket	access:public
+JBJoinRequestPacket::payload	packetPrototype.h	/^	uint8 *payload;$/;"	m	struct:JBJoinRequestPacket	access:public
+JBJoinRequestPonter	packetPrototype.h	/^typedef JBJoinRequestPacket *JBJoinRequestPonter;$/;"	t
+JBJoinResponsePacket	packetPrototype.h	/^typedef struct JBJoinResponsePacket {$/;"	s
+JBJoinResponsePacket	packetPrototype.h	/^} JBJoinResponsePacket;$/;"	t	typeref:struct:JBJoinResponsePacket
+JBJoinResponsePacket::JB_MAC	packetPrototype.h	/^	uint8 JB_MAC[6];$/;"	m	struct:JBJoinResponsePacket	access:public
+JBJoinResponsePacket::ack	packetPrototype.h	/^	uint8 ack;$/;"	m	struct:JBJoinResponsePacket	access:public
+JBJoinResponsePointer	packetPrototype.h	/^typedef JBJoinResponsePacket *JBJoinResponsePointer;$/;"	t
+JB_JOIN_REQUEST	packetPrototype.h	/^enum PacketType {AM_JOIN_REQUEST = 0x03, AM_JOIN_RESPONSE = 0x04, RTC_UPDATE_REQUEST = 0x05, RTC_UPDATE_RESPONSE = 0x06, PERIODIC_DATA = 0x07, JB_JOIN_REQUEST = 0x08, JB_JOIN_RESPNOSE = 0x09,TCP_PERIODIC_LINK = 0x0a, ARRAY_MANGER_SETTING = 0x0b };$/;"	e	enum:PacketType
+JB_JOIN_REQUEST_PACKET_LESS	packetPrototype.h	177;"	d
+JB_JOIN_RESPNOSE	packetPrototype.h	/^enum PacketType {AM_JOIN_REQUEST = 0x03, AM_JOIN_RESPONSE = 0x04, RTC_UPDATE_REQUEST = 0x05, RTC_UPDATE_RESPONSE = 0x06, PERIODIC_DATA = 0x07, JB_JOIN_REQUEST = 0x08, JB_JOIN_RESPNOSE = 0x09,TCP_PERIODIC_LINK = 0x0a, ARRAY_MANGER_SETTING = 0x0b };$/;"	e	enum:PacketType
+JB_JOIN_WHOLE_SIZE	packetPrototype.h	176;"	d
+JB_JRSP_WHOLE_SIZE	packetPrototype.h	178;"	d
+JB_Join	packetProcessing.c	/^void JB_Join(int Remotefd)$/;"	f	signature:(int Remotefd)
+JB_Join	packetProcessing.h	/^void JB_Join(int Remotefd);$/;"	p	signature:(int Remotefd)
+JB_MAC	packetPrototype.h	/^	uint8 JB_MAC[6];$/;"	m	struct:JBJoinInfoPacket	access:public
+JB_MAC	packetPrototype.h	/^	uint8 JB_MAC[6];$/;"	m	struct:JBJoinResponsePacket	access:public
+JB_block	mysql_sum.c	/^int JB_block[256][3]={0};\/\/temp power state$/;"	v
+JB_block_id	mysql_sum.h	49;"	d
+JB_current	mysql_sum.h	54;"	d
+JB_device_spec	mysql_sum.h	46;"	d
+JB_firmware_vs	mysql_sum.h	44;"	d
+JB_hardware_vs	mysql_sum.h	45;"	d
+JB_insert_time	mysql_sum.h	50;"	d
+JB_jb_mac	mysql_sum.h	42;"	d
+JB_mac	mysql_sum.c	/^char JB_mac[256][5]={0};$/;"	v
+JB_manufacture_date	mysql_sum.h	47;"	d
+JB_pos	mysql_sum.h	48;"	d
+JB_power	mysql_sum.h	56;"	d
+JB_sn	mysql_sum.h	43;"	d
+JB_state	mysql_sum.h	52;"	d
+JB_state2	mysql_sum.h	51;"	d
+JB_temp	mysql_sum.h	55;"	d
+JB_update_time	mysql_sum.h	57;"	d
+JB_voltage	mysql_sum.h	53;"	d
+JOIN_ACK	packetPrototype.h	/^enum JoinCondition {JOIN_ACK = 0x02, JOIN_NACK_MAC = 0x03, JOIN_NACK = 0x04};$/;"	e	enum:JoinCondition
+JOIN_NACK	packetPrototype.h	/^enum JoinCondition {JOIN_ACK = 0x02, JOIN_NACK_MAC = 0x03, JOIN_NACK = 0x04};$/;"	e	enum:JoinCondition
+JOIN_NACK_MAC	packetPrototype.h	/^enum JoinCondition {JOIN_ACK = 0x02, JOIN_NACK_MAC = 0x03, JOIN_NACK = 0x04};$/;"	e	enum:JoinCondition
+JoinCondition	packetPrototype.h	/^enum JoinCondition {JOIN_ACK = 0x02, JOIN_NACK_MAC = 0x03, JOIN_NACK = 0x04};$/;"	g
+JunctionBoxPacket	packetPrototype.h	/^typedef struct JunctionBoxPacket {$/;"	s
+JunctionBoxPacket	packetPrototype.h	/^} JunctionBoxPacket;$/;"	t	typeref:struct:JunctionBoxPacket
+JunctionBoxPacket::MAC	packetPrototype.h	/^	uint8 MAC[6];$/;"	m	struct:JunctionBoxPacket	access:public
+JunctionBoxPacket::current	packetPrototype.h	/^	uint16 current;$/;"	m	struct:JunctionBoxPacket	access:public
+JunctionBoxPacket::diodeTemperature	packetPrototype.h	/^	uint8 diodeTemperature;$/;"	m	struct:JunctionBoxPacket	access:public
+JunctionBoxPacket::power	packetPrototype.h	/^	uint32 power;$/;"	m	struct:JunctionBoxPacket	access:public
+JunctionBoxPacket::state	packetPrototype.h	/^	uint32 state;$/;"	m	struct:JunctionBoxPacket	access:public
+JunctionBoxPacket::voltage	packetPrototype.h	/^	uint16 voltage;$/;"	m	struct:JunctionBoxPacket	access:public
+JunctionBoxPointer	packetPrototype.h	/^typedef JunctionBoxPacket *JunctionBoxPointer;$/;"	t
+JunctionBoxState	packetPrototype.h	/^enum JunctionBoxState {GOOD = 0x00, OFFLINE = 0x01 << 0, OVER_HEAT = 0x01 << 1, OVER_VOLTAGE = 0x01 << 2, OVER_CURRENT  = 0x01 << 3};$/;"	g
+LIBS	makefile	/^LIBS = -lmysqlclient -lpthread$/;"	m
+M3_DEBUG	server.c	14;"	d	file:
+MAC	packetPrototype.h	/^	uint8 MAC[6];$/;"	m	struct:AMJoinRequestPacket	access:public
+MAC	packetPrototype.h	/^	uint8 MAC[6];$/;"	m	struct:JunctionBoxPacket	access:public
+MEMORY_SIZE	mystdlib.h	5;"	d
+MY_STDLIB_H	mystdlib.h	2;"	d
+ManufactureData	packetPrototype.h	/^	uint8 ManufactureData[8];$/;"	m	struct:JBJoinInfoPacket	access:public
+NULL	mystdlib.h	39;"	d
+OBJS	makefile	/^OBJS = server.o mystdlib.o packetProcessing.o mysql_sum.o$/;"	m
+OFFLINE	packetPrototype.h	/^enum JunctionBoxState {GOOD = 0x00, OFFLINE = 0x01 << 0, OVER_HEAT = 0x01 << 1, OVER_VOLTAGE = 0x01 << 2, OVER_CURRENT  = 0x01 << 3};$/;"	e	enum:JunctionBoxState
+OVER_CURRENT	packetPrototype.h	/^enum JunctionBoxState {GOOD = 0x00, OFFLINE = 0x01 << 0, OVER_HEAT = 0x01 << 1, OVER_VOLTAGE = 0x01 << 2, OVER_CURRENT  = 0x01 << 3};$/;"	e	enum:JunctionBoxState
+OVER_HEAT	packetPrototype.h	/^enum JunctionBoxState {GOOD = 0x00, OFFLINE = 0x01 << 0, OVER_HEAT = 0x01 << 1, OVER_VOLTAGE = 0x01 << 2, OVER_CURRENT  = 0x01 << 3};$/;"	e	enum:JunctionBoxState
+OVER_VOLTAGE	packetPrototype.h	/^enum JunctionBoxState {GOOD = 0x00, OFFLINE = 0x01 << 0, OVER_HEAT = 0x01 << 1, OVER_VOLTAGE = 0x01 << 2, OVER_CURRENT  = 0x01 << 3};$/;"	e	enum:JunctionBoxState
+PACKET_PROCESSING_H	packetProcessing.h	2;"	d
+PACKET_PROTOTYPE_H	packetPrototype.h	2;"	d
+PAGE_LENGTH	mystdlib.h	12;"	d
+PAGE_SIZE	mystdlib.h	6;"	d
+PERIODIC_DATA	packetPrototype.h	/^enum PacketType {AM_JOIN_REQUEST = 0x03, AM_JOIN_RESPONSE = 0x04, RTC_UPDATE_REQUEST = 0x05, RTC_UPDATE_RESPONSE = 0x06, PERIODIC_DATA = 0x07, JB_JOIN_REQUEST = 0x08, JB_JOIN_RESPNOSE = 0x09,TCP_PERIODIC_LINK = 0x0a, ARRAY_MANGER_SETTING = 0x0b };$/;"	e	enum:PacketType
+PN_jb_mac	mysql_sum.c	971;"	d	file:
+PN_power	mysql_sum.c	972;"	d	file:
+PN_temp	mysql_sum.c	973;"	d	file:
+PN_time	mysql_sum.c	974;"	d	file:
+PRD_DTA_WHOLE_SIZE	packetPrototype.h	170;"	d
+PacketType	packetPrototype.h	/^enum PacketType {AM_JOIN_REQUEST = 0x03, AM_JOIN_RESPONSE = 0x04, RTC_UPDATE_REQUEST = 0x05, RTC_UPDATE_RESPONSE = 0x06, PERIODIC_DATA = 0x07, JB_JOIN_REQUEST = 0x08, JB_JOIN_RESPNOSE = 0x09,TCP_PERIODIC_LINK = 0x0a, ARRAY_MANGER_SETTING = 0x0b };$/;"	g
+PeriodicDataPacket	packetPrototype.h	/^typedef struct PeriodicDataPacket {$/;"	s
+PeriodicDataPacket	packetPrototype.h	/^} PeriodicDataPacket;$/;"	t	typeref:struct:PeriodicDataPacket
+PeriodicDataPacket::nJunctionBoxes	packetPrototype.h	/^	uint8 nJunctionBoxes;$/;"	m	struct:PeriodicDataPacket	access:public
+PeriodicDataPacket::payload	packetPrototype.h	/^	uint8 *payload;$/;"	m	struct:PeriodicDataPacket	access:public
+PeriodicDataPacket::stamp	packetPrototype.h	/^	TimeStamp stamp;$/;"	m	struct:PeriodicDataPacket	access:public
+PeriodicDataPacket::updatePeriod	packetPrototype.h	/^	uint16 updatePeriod;$/;"	m	struct:PeriodicDataPacket	access:public
+PeriodicDataPointer	packetPrototype.h	/^typedef PeriodicDataPacket *PeriodicDataPointer;$/;"	t
+RESET_ARRAY_MANGER	packetPrototype.h	/^enum TCPArraySettingCondition {UPDATE_RTC = 0x00, UPADTE_PERIOD = 0x01, TCP_LINK_PERIOD = 0x02, RESET_ARRAY_MANGER = 0x03, RESET_JUNCTION_BOX = 0x04};$/;"	e	enum:TCPArraySettingCondition
+RESET_JUNCTION_BOX	packetPrototype.h	/^enum TCPArraySettingCondition {UPDATE_RTC = 0x00, UPADTE_PERIOD = 0x01, TCP_LINK_PERIOD = 0x02, RESET_ARRAY_MANGER = 0x03, RESET_JUNCTION_BOX = 0x04};$/;"	e	enum:TCPArraySettingCondition
+RTCCondition	packetPrototype.h	/^enum RTCCondition {CMD_RTC_UPDATE_REQUEST = 0x0C};$/;"	g
+RTCRequestPacket	packetPrototype.h	/^typedef struct RTCRequestPacket {$/;"	s
+RTCRequestPacket	packetPrototype.h	/^} RTCRequestPacket;$/;"	t	typeref:struct:RTCRequestPacket
+RTCRequestPacket::type	packetPrototype.h	/^	uint8 type;$/;"	m	struct:RTCRequestPacket	access:public
+RTCRequestPonter	packetPrototype.h	/^typedef RTCRequestPacket *RTCRequestPonter;$/;"	t
+RTCResponse2DateTime	packetProcessing.c	/^DateTime RTCResponse2DateTime(RTCResponsePonter pkt)$/;"	f	signature:(RTCResponsePonter pkt)
+RTCResponse2DateTime	packetProcessing.h	/^DateTime RTCResponse2DateTime(RTCResponsePonter pkt);$/;"	p	signature:(RTCResponsePonter pkt)
+RTCResponsePacket	packetPrototype.h	/^typedef struct RTCResponsePacket {$/;"	s
+RTCResponsePacket	packetPrototype.h	/^} RTCResponsePacket;$/;"	t	typeref:struct:RTCResponsePacket
+RTCResponsePacket::date	packetPrototype.h	/^	uint8 date;$/;"	m	struct:RTCResponsePacket	access:public
+RTCResponsePacket::hours	packetPrototype.h	/^	uint8 hours;$/;"	m	struct:RTCResponsePacket	access:public
+RTCResponsePacket::minutes	packetPrototype.h	/^	uint8 minutes;$/;"	m	struct:RTCResponsePacket	access:public
+RTCResponsePacket::months	packetPrototype.h	/^	uint8 months;$/;"	m	struct:RTCResponsePacket	access:public
+RTCResponsePacket::second	packetPrototype.h	/^	uint8 second;$/;"	m	struct:RTCResponsePacket	access:public
+RTCResponsePacket::years	packetPrototype.h	/^	uint8 years;$/;"	m	struct:RTCResponsePacket	access:public
+RTCResponsePonter	packetPrototype.h	/^typedef RTCResponsePacket *RTCResponsePonter;$/;"	t
+RTC_REQ_WHOLE_SIZE	packetPrototype.h	168;"	d
+RTC_RSP_WHOLE_SIZE	packetPrototype.h	169;"	d
+RTC_Request	packetProcessing.c	/^DateTime RTC_Request(int Remotefd)$/;"	f	signature:(int Remotefd)
+RTC_Request	packetProcessing.h	/^DateTime RTC_Request(int Remotefd);$/;"	p	signature:(int Remotefd)
+RTC_UPDATE_REQUEST	packetPrototype.h	/^enum PacketType {AM_JOIN_REQUEST = 0x03, AM_JOIN_RESPONSE = 0x04, RTC_UPDATE_REQUEST = 0x05, RTC_UPDATE_RESPONSE = 0x06, PERIODIC_DATA = 0x07, JB_JOIN_REQUEST = 0x08, JB_JOIN_RESPNOSE = 0x09,TCP_PERIODIC_LINK = 0x0a, ARRAY_MANGER_SETTING = 0x0b };$/;"	e	enum:PacketType
+RTC_UPDATE_RESPONSE	packetPrototype.h	/^enum PacketType {AM_JOIN_REQUEST = 0x03, AM_JOIN_RESPONSE = 0x04, RTC_UPDATE_REQUEST = 0x05, RTC_UPDATE_RESPONSE = 0x06, PERIODIC_DATA = 0x07, JB_JOIN_REQUEST = 0x08, JB_JOIN_RESPNOSE = 0x09,TCP_PERIODIC_LINK = 0x0a, ARRAY_MANGER_SETTING = 0x0b };$/;"	e	enum:PacketType
+RTCtime	mysql_sum.c	/^void RTCtime(SunPonter pkt){$/;"	f	signature:(SunPonter pkt)
+RTCtime	mysql_sum.h	/^void RTCtime(SunPonter pkt);$/;"	p	signature:(SunPonter pkt)
+SIZE_BEFORE_PAYLOAD	packetPrototype.h	171;"	d
+SIZE_OF_AM_JOIN_REQUEST_PACKET	packetPrototype.h	47;"	d
+SIZE_OF_AM_JOIN_RESPONSE_PACKET	packetPrototype.h	55;"	d
+SIZE_OF_AM_SETTING_PACKET	packetPrototype.h	152;"	d
+SIZE_OF_JB_JOIN_INFO_PACKET	packetPrototype.h	128;"	d
+SIZE_OF_JB_JOIN_REQUEST_PACKET	packetPrototype.h	116;"	d
+SIZE_OF_JB_JOIN_RESPONSE_PACKET	packetPrototype.h	136;"	d
+SIZE_OF_JUNCTIONBOX_PACKET	packetPrototype.h	98;"	d
+SIZE_OF_PERIODIC_DATA_PACKET	packetPrototype.h	107;"	d
+SIZE_OF_PERIODIC_DATA_PACKET_LESS	packetPrototype.h	165;"	d
+SIZE_OF_RTC_REQUEST_PACKET	packetPrototype.h	63;"	d
+SIZE_OF_RTC_RESPONSE_PACKET	packetPrototype.h	76;"	d
+SIZE_OF_SUN_PACKET	packetPrototype.h	37;"	d
+SIZE_OF_SUN_PACKET_LESS	packetPrototype.h	164;"	d
+SIZE_OF_TCP_PERIODIC_LINK_PACKET	packetPrototype.h	145;"	d
+SIZE_OF_TIME_STAMP	packetPrototype.h	87;"	d
+SJBDisconect_Time	mysql_sum.c	845;"	d	file:
+SJBInfo_UpdateFirmeareV	mysql_sum.c	/^void SJBInfo_UpdateFirmeareV(JBJoinInfoPonter jbInfoPtr) $/;"	f	signature:(JBJoinInfoPonter jbInfoPtr)
+SJBInfo_UpdateFirmeareV	mysql_sum.c	/^void SJBInfo_UpdateFirmeareV(JBJoinInfoPonter jbInfoptr);$/;"	p	file:	signature:(JBJoinInfoPonter jbInfoptr)
+SerialNumber	packetPrototype.h	/^	uint8 SerialNumber[24];$/;"	m	struct:JBJoinInfoPacket	access:public
+Set_SJB_ALLZero	mysql_sum.c	/^int  Set_SJB_ALLZero( char*SJBMAC)$/;"	f	signature:( char*SJBMAC)
+SettingDate	packetPrototype.h	/^	uint8  SettingDate[255];$/;"	m	struct:AMSettingPacket	access:public
+Sql_ServerTime	mysql_sum.c	/^void Sql_ServerTime()$/;"	f
+SunPacket	packetPrototype.h	/^typedef struct SunPacket {$/;"	s
+SunPacket	packetPrototype.h	/^} SunPacket;$/;"	t	typeref:struct:SunPacket
+SunPacket::commandType	packetPrototype.h	/^	uint8 commandType;$/;"	m	struct:SunPacket	access:public
+SunPacket::headerCode	packetPrototype.h	/^	uint8 headerCode;$/;"	m	struct:SunPacket	access:public
+SunPacket::length	packetPrototype.h	/^	uint16 length;$/;"	m	struct:SunPacket	access:public
+SunPacket::nPayload	packetPrototype.h	/^	uint8 nPayload;$/;"	m	struct:SunPacket	access:public
+SunPacket::payload	packetPrototype.h	/^	uint8 *payload;$/;"	m	struct:SunPacket	access:public
+SunPacket::sequenceNumber	packetPrototype.h	/^	uint8 sequenceNumber;$/;"	m	struct:SunPacket	access:public
+SunPacket::tailCode	packetPrototype.h	/^	uint8 tailCode;$/;"	m	struct:SunPacket	access:public
+SunPonter	packetPrototype.h	/^typedef SunPacket *SunPonter;$/;"	t
+TAIL_CODE	packetPrototype.h	15;"	d
+TCPArraySettingCondition	packetPrototype.h	/^enum TCPArraySettingCondition {UPDATE_RTC = 0x00, UPADTE_PERIOD = 0x01, TCP_LINK_PERIOD = 0x02, RESET_ARRAY_MANGER = 0x03, RESET_JUNCTION_BOX = 0x04};$/;"	g
+TCPLinkPeriod	packetPrototype.h	/^	uint16 TCPLinkPeriod;$/;"	m	struct:TCPPeriodicLinkPacket	access:public
+TCPPeriodicLinkPacket	packetPrototype.h	/^typedef struct TCPPeriodicLinkPacket {$/;"	s
+TCPPeriodicLinkPacket	packetPrototype.h	/^} TCPPeriodicLinkPacket;$/;"	t	typeref:struct:TCPPeriodicLinkPacket
+TCPPeriodicLinkPacket::AMRTCTime	packetPrototype.h	/^	uint8  AMRTCTime[6];$/;"	m	struct:TCPPeriodicLinkPacket	access:public
+TCPPeriodicLinkPacket::TCPLinkPeriod	packetPrototype.h	/^	uint16 TCPLinkPeriod;$/;"	m	struct:TCPPeriodicLinkPacket	access:public
+TCPPeriodicLinkPacket::UpPeriod	packetPrototype.h	/^	uint16 UpPeriod;$/;"	m	struct:TCPPeriodicLinkPacket	access:public
+TCPPeriodicLinkPointer	packetPrototype.h	/^typedef TCPPeriodicLinkPacket *TCPPeriodicLinkPointer;$/;"	t
+TCP_LINK_PERIOD	packetPrototype.h	/^enum TCPArraySettingCondition {UPDATE_RTC = 0x00, UPADTE_PERIOD = 0x01, TCP_LINK_PERIOD = 0x02, RESET_ARRAY_MANGER = 0x03, RESET_JUNCTION_BOX = 0x04};$/;"	e	enum:TCPArraySettingCondition
+TCP_LINK_WHOLE_SIZE	packetPrototype.h	180;"	d
+TCP_Link	packetProcessing.c	/^void TCP_Link(int Remotefd){$/;"	f	signature:(int Remotefd)
+TCP_Link	packetProcessing.h	/^void TCP_Link(int Remotefd);$/;"	p	signature:(int Remotefd)
+TCP_PERIODIC_LINK	packetPrototype.h	/^enum PacketType {AM_JOIN_REQUEST = 0x03, AM_JOIN_RESPONSE = 0x04, RTC_UPDATE_REQUEST = 0x05, RTC_UPDATE_RESPONSE = 0x06, PERIODIC_DATA = 0x07, JB_JOIN_REQUEST = 0x08, JB_JOIN_RESPNOSE = 0x09,TCP_PERIODIC_LINK = 0x0a, ARRAY_MANGER_SETTING = 0x0b };$/;"	e	enum:PacketType
+TCPperiod	mysql_sum.c	/^int amcount,amset,TCPperiod;$/;"	v
+TimeCompare	mysql_sum.c	/^int TimeCompare(char timef[])$/;"	f	signature:(char timef[])
+TimeStamp	packetPrototype.h	/^typedef struct TimeStamp {$/;"	s
+TimeStamp	packetPrototype.h	/^} TimeStamp;$/;"	t	typeref:struct:TimeStamp
+TimeStamp::date	packetPrototype.h	/^	uint8 date;$/;"	m	struct:TimeStamp	access:public
+TimeStamp::hours	packetPrototype.h	/^	uint8 hours;$/;"	m	struct:TimeStamp	access:public
+TimeStamp::minutes	packetPrototype.h	/^	uint8 minutes;$/;"	m	struct:TimeStamp	access:public
+TimeStamp::seconds	packetPrototype.h	/^	uint8 seconds;$/;"	m	struct:TimeStamp	access:public
+TimeStampPonter	packetPrototype.h	/^typedef TimeStamp *TimeStampPonter;$/;"	t
+UARTprintf	mystdlib.h	/^	extern void UARTprintf(const char *pcString, ...);$/;"	p	signature:(const char *pcString, ...)
+UPADTE_PERIOD	packetPrototype.h	/^enum TCPArraySettingCondition {UPDATE_RTC = 0x00, UPADTE_PERIOD = 0x01, TCP_LINK_PERIOD = 0x02, RESET_ARRAY_MANGER = 0x03, RESET_JUNCTION_BOX = 0x04};$/;"	e	enum:TCPArraySettingCondition
+UPDATE_RTC	packetPrototype.h	/^enum TCPArraySettingCondition {UPDATE_RTC = 0x00, UPADTE_PERIOD = 0x01, TCP_LINK_PERIOD = 0x02, RESET_ARRAY_MANGER = 0x03, RESET_JUNCTION_BOX = 0x04};$/;"	e	enum:TCPArraySettingCondition
+UpPeriod	packetPrototype.h	/^	uint16 UpPeriod;$/;"	m	struct:TCPPeriodicLinkPacket	access:public
+VALID_BLOCKS	mystdlib.h	10;"	d
+ack	packetPrototype.h	/^	uint8 ack;$/;"	m	struct:AMJoinResponsePacket	access:public
+ack	packetPrototype.h	/^	uint8 ack;$/;"	m	struct:JBJoinResponsePacket	access:public
+am_id	mysql_sum.c	/^int am_id,block_id,pos;$/;"	v
+amcount	mysql_sum.c	/^int amcount,amset,TCPperiod;$/;"	v
+amset	mysql_sum.c	/^int amcount,amset,TCPperiod;$/;"	v
+array2Packet	packetProcessing.c	/^SunPonter array2Packet(uint8 * array)$/;"	f	signature:(uint8 * array)
+array2Packet	packetProcessing.h	/^SunPonter array2Packet(uint8 * array);$/;"	p	signature:(uint8 * array)
+block	mysql_sum.c	/^int block[256]={0};$/;"	v
+block_id	mysql_sum.c	/^int am_id,block_id,pos;$/;"	v
+comfirmedCode	packetPrototype.h	/^	uint8 comfirmedCode[200];$/;"	m	struct:AMJoinRequestPacket	access:public
+commandType	packetPrototype.h	/^	uint8 commandType;$/;"	m	struct:SunPacket	access:public
+current	packetPrototype.h	/^	uint16 current;$/;"	m	struct:JunctionBoxPacket	access:public
+date	packetPrototype.h	/^	uint32 date;$/;"	m	struct:DateTime	access:public
+date	packetPrototype.h	/^	uint8 date;$/;"	m	struct:RTCResponsePacket	access:public
+date	packetPrototype.h	/^	uint8 date;$/;"	m	struct:TimeStamp	access:public
+dbname	mysql_sum.c	/^char host[100]="localhost",user[100]="pvweb",pwd[100]="pvweb",dbname[100]="PVWEB";$/;"	v
+diodeTemperature	packetPrototype.h	/^	uint8 diodeTemperature;$/;"	m	struct:JunctionBoxPacket	access:public
+fc	server.c	/^int fc=1,ft=1;$/;"	v
+ft	server.c	/^int fc=1,ft=1;$/;"	v
+generateAMJoin	packetProcessing.c	/^AMJoinRequestPonter generateAMJoin()$/;"	f
+generateAMJoin	packetProcessing.h	/^AMJoinRequestPonter generateAMJoin(void);$/;"	p	signature:(void)
+generateAMJoinResponse	packetProcessing.c	/^AMJoinResponsePointer generateAMJoinResponse()$/;"	f
+generateAMJoinResponse	packetProcessing.h	/^AMJoinResponsePointer generateAMJoinResponse(void);$/;"	p	signature:(void)
+generateAMSetting	packetProcessing.c	/^SunPonter generateAMSetting(){$/;"	f
+generateAMSetting	packetProcessing.h	/^SunPonter generateAMSetting(void);$/;"	p	signature:(void)
+generateJBJoin	packetProcessing.c	/^JBJoinRequestPonter generateJBJoin(int number){$/;"	f	signature:(int number)
+generateJBJoin	packetProcessing.h	/^JBJoinRequestPonter generateJBJoin(int size);$/;"	p	signature:(int size)
+generatePeriodicData	packetProcessing.c	/^PeriodicDataPointer generatePeriodicData(int size)$/;"	f	signature:(int size)
+generatePeriodicData	packetProcessing.h	/^PeriodicDataPointer generatePeriodicData(int size);$/;"	p	signature:(int size)
+generateSunPacket	packetProcessing.c	/^SunPonter generateSunPacket(uint8 commandType)$/;"	f	signature:(uint8 commandType)
+generateSunPacket	packetProcessing.h	/^SunPonter generateSunPacket(uint8 commandType);$/;"	p	signature:(uint8 commandType)
+generateSunPacketJB	packetProcessing.c	/^SunPonter generateSunPacketJB(SunPonter pkt){$/;"	f	signature:(SunPonter pkt)
+generateSunPacketJB	packetProcessing.h	/^SunPonter generateSunPacketJB(SunPonter pkt);$/;"	p	signature:(SunPonter pkt)
+generateTCPLink	packetProcessing.c	/^TCPPeriodicLinkPointer generateTCPLink(){$/;"	f
+generateTCPLink	packetProcessing.h	/^TCPPeriodicLinkPointer generateTCPLink(void);$/;"	p	signature:(void)
+headerCode	packetPrototype.h	/^	uint8 headerCode;$/;"	m	struct:SunPacket	access:public
+host	mysql_sum.c	/^char host[100]="localhost",user[100]="pvweb",pwd[100]="pvweb",dbname[100]="PVWEB";$/;"	v
+hours	packetPrototype.h	/^	uint32 hours;$/;"	m	struct:DateTime	access:public
+hours	packetPrototype.h	/^	uint8 hours;$/;"	m	struct:RTCResponsePacket	access:public
+hours	packetPrototype.h	/^	uint8 hours;$/;"	m	struct:TimeStamp	access:public
+jbmac	mysql_sum.c	/^char jbmac[6];$/;"	v
+jbsize	packetProcessing.c	/^int jbsize=0;$/;"	v
+l_free	packetProcessing.h	5;"	d
+l_malloc	packetProcessing.h	4;"	d
+length	packetPrototype.h	/^	uint16 length;$/;"	m	struct:SunPacket	access:public
+main	server.c	/^int main()$/;"	f
+memoryPound	mystdlib.c	/^unsigned char memoryPound[BLOCK_SIZE][PAGE_SIZE];$/;"	v
+minutes	packetPrototype.h	/^	uint32 minutes;$/;"	m	struct:DateTime	access:public
+minutes	packetPrototype.h	/^	uint8 minutes;$/;"	m	struct:RTCResponsePacket	access:public
+minutes	packetPrototype.h	/^	uint8 minutes;$/;"	m	struct:TimeStamp	access:public
+months	packetPrototype.h	/^	uint32 months;$/;"	m	struct:DateTime	access:public
+months	packetPrototype.h	/^	uint8 months;$/;"	m	struct:RTCResponsePacket	access:public
+mysql	mysql_sum.c	/^MYSQL mysql;$/;"	v
+mysql_ArrayManager_Join	mysql_sum.c	/^void mysql_ArrayManager_Join(SunPonter pkt,char client_ip[]){$/;"	f	signature:(SunPonter pkt,char client_ip[])
+mysql_ArrayManager_Join	mysql_sum.h	/^void mysql_ArrayManager_Join(SunPonter pkt,char client_ip[]);$/;"	p	signature:(SunPonter pkt,char client_ip[])
+mysql_JunctionBox_Join	mysql_sum.c	/^void mysql_JunctionBox_Join(SunPonter pkt){$/;"	f	signature:(SunPonter pkt)
+mysql_JunctionBox_Join	mysql_sum.h	/^void mysql_JunctionBox_Join(SunPonter pkt);$/;"	p	signature:(SunPonter pkt)
+mysql_PeriodicData	mysql_sum.c	/^void mysql_PeriodicData(SunPonter pkt,int flag){$/;"	f	signature:(SunPonter pkt,int flag)
+mysql_PeriodicData	mysql_sum.h	/^void mysql_PeriodicData(SunPonter pkt,int flag);$/;"	p	signature:(SunPonter pkt,int flag)
+mysql_TCPLink	mysql_sum.c	/^void mysql_TCPLink(SunPonter pkt){$/;"	f	signature:(SunPonter pkt)
+mysql_TCPLink	mysql_sum.h	/^void mysql_TCPLink(SunPonter pkt);$/;"	p	signature:(SunPonter pkt)
+mysql_compare	mysql_sum.c	/^void mysql_compare(void){$/;"	f	signature:(void)
+mysql_compare	mysql_sum.h	/^void mysql_compare(void);$/;"	p	signature:(void)
+mysql_connect	mysql_sum.c	/^void mysql_connect(void){$/;"	f	signature:(void)
+mysql_connect	mysql_sum.h	/^void mysql_connect(void);$/;"	p	signature:(void)
+mysql_join	mysql_sum.c	/^char mysql_join[256];$/;"	v
+nJunctionBoxes	packetPrototype.h	/^	uint8 nJunctionBoxes;$/;"	m	struct:JBJoinRequestPacket	access:public
+nJunctionBoxes	packetPrototype.h	/^	uint8 nJunctionBoxes;$/;"	m	struct:PeriodicDataPacket	access:public
+nPayload	packetPrototype.h	/^	uint8 nPayload;$/;"	m	struct:SunPacket	access:public
+packet2Array	packetProcessing.c	/^uint8 *packet2Array(SunPonter pkt)$/;"	f	signature:(SunPonter pkt)
+packet2Array	packetProcessing.h	/^uint8 *packet2Array(SunPonter pkt);$/;"	p	signature:(SunPonter pkt)
+payLoadSize	packetPrototype.h	173;"	d
+payload	packetPrototype.h	/^	uint8 *payload;$/;"	m	struct:JBJoinRequestPacket	access:public
+payload	packetPrototype.h	/^	uint8 *payload;$/;"	m	struct:PeriodicDataPacket	access:public
+payload	packetPrototype.h	/^	uint8 *payload;$/;"	m	struct:SunPacket	access:public
+portNumber	packetPrototype.h	/^	uint16 portNumber;$/;"	m	struct:AMJoinRequestPacket	access:public
+pos	mysql_sum.c	/^int am_id,block_id,pos;$/;"	v
+power	packetPrototype.h	/^	uint32 power;$/;"	m	struct:JunctionBoxPacket	access:public
+pwd	mysql_sum.c	/^char host[100]="localhost",user[100]="pvweb",pwd[100]="pvweb",dbname[100]="PVWEB";$/;"	v
+query	mysql_sum.c	/^char query[5000]="";\/\/,query2[1000]="";$/;"	v
+recv	packetProcessing.h	7;"	d
+releasePacket	packetProcessing.c	/^void releasePacket(SunPonter pkt){$/;"	f	signature:(SunPonter pkt)
+releasePacket	packetProcessing.h	/^void releasePacket(SunPonter pkt);$/;"	p	signature:(SunPonter pkt)
+reserved	packetPrototype.h	/^	uint8 reserved[4];$/;"	m	struct:AMJoinRequestPacket	access:public
+restPound	mystdlib.c	/^int restPound = BLOCK_SIZE;$/;"	v
+second	packetPrototype.h	/^	uint8 second;$/;"	m	struct:RTCResponsePacket	access:public
+seconds	packetPrototype.h	/^	uint8 seconds;$/;"	m	struct:TimeStamp	access:public
+sem	server.c	/^sem_t sem;$/;"	v
+sendPeriodicData	packetProcessing.c	/^void sendPeriodicData(int Remotefd)$/;"	f	signature:(int Remotefd)
+sequenceNumber	packetPrototype.h	/^	uint8 sequenceNumber;$/;"	m	struct:SunPacket	access:public
+showSunPacketInfo	packetProcessing.c	/^void showSunPacketInfo(SunPonter pkt){$/;"	f	signature:(SunPonter pkt)
+showSunPacketInfo	packetProcessing.h	/^void showSunPacketInfo(SunPonter pkt);$/;"	p	signature:(SunPonter pkt)
+sql_AMjoin	mysql_sum.c	/^void sql_AMjoin(char flag,char client_ip[],AMJoinRequestPonter amReqPtr){$/;"	f	signature:(char flag,char client_ip[],AMJoinRequestPonter amReqPtr)
+sql_AMjoin	mysql_sum.h	/^void sql_AMjoin(char flag,char client_ip[],AMJoinRequestPonter amReqPtr);$/;"	p	signature:(char flag,char client_ip[],AMJoinRequestPonter amReqPtr)
+sql_JBjoin	mysql_sum.c	/^void sql_JBjoin(JBJoinInfoPonter jbInfoPtr){$/;"	f	signature:(JBJoinInfoPonter jbInfoPtr)
+sql_JBjoin	mysql_sum.h	/^void sql_JBjoin(JBJoinInfoPonter jbInfoPtr);$/;"	p	signature:(JBJoinInfoPonter jbInfoPtr)
+sql_PD	mysql_sum.c	/^void sql_PD(PeriodicDataPointer pdcPtr,int n,int flag){$/;"	f	signature:(PeriodicDataPointer pdcPtr,int n,int flag)
+sql_PD	mysql_sum.h	/^void sql_PD(PeriodicDataPointer pdcPtr,int n,int flag);$/;"	p	signature:(PeriodicDataPointer pdcPtr,int n,int flag)
+sql_block	mysql_sum.c	/^void sql_block(char am_id[]){$/;"	f	signature:(char am_id[])
+sql_block	mysql_sum.h	/^void sql_block(char am_id[]);$/;"	p	signature:(char am_id[])
+sql_char	mysql_sum.c	/^void sql_char(char temp){$/;"	f	signature:(char temp)
+sql_char	mysql_sum.h	/^void sql_char(char temp);\/\/char->char[]$/;"	p	signature:(char temp)
+sql_deviceDummytime	mysql_sum.c	/^void sql_deviceDummytime(TimeStampPonter timeStampPtr){$/;"	f	signature:(TimeStampPonter timeStampPtr)
+sql_devicetime	mysql_sum.c	/^void sql_devicetime(TimeStampPonter timeStampPtr){$/;"	f	signature:(TimeStampPonter timeStampPtr)
+sql_devicetime	mysql_sum.h	/^void sql_devicetime(TimeStampPonter timeStampPtr);$/;"	p	signature:(TimeStampPonter timeStampPtr)
+sql_float	mysql_sum.c	/^void sql_float(float temp){$/;"	f	signature:(float temp)
+sql_float	mysql_sum.h	/^void sql_float(float temp);$/;"	p	signature:(float temp)
+sql_int	mysql_sum.c	/^void sql_int(int temp){$/;"	f	signature:(int temp)
+sql_int	mysql_sum.h	/^void sql_int(int temp);\/\/int->char[]$/;"	p	signature:(int temp)
+sql_short	mysql_sum.c	/^void sql_short(short temp){$/;"	f	signature:(short temp)
+sql_short	mysql_sum.h	/^void sql_short(short temp);\/\/short->char[]$/;"	p	signature:(short temp)
+sql_time	mysql_sum.c	/^void sql_time(void){$/;"	f	signature:(void)
+sql_time	mysql_sum.h	/^void sql_time(void);\/\/get now time$/;"	p	signature:(void)
+stamp	packetPrototype.h	/^	TimeStamp stamp;$/;"	m	struct:PeriodicDataPacket	access:public
+state	packetPrototype.h	/^	uint32 state;$/;"	m	struct:JunctionBoxPacket	access:public
+state_timecompare	mysql_sum.c	/^int state_timecompare(char timef[]){$/;"	f	signature:(char timef[])
+state_timecompare	mysql_sum.h	/^int state_timecompare(char timef[]);$/;"	p	signature:(char timef[])
+strsub	mysql_sum.c	/^void strsub(char *s1, int sub) {$/;"	f	signature:(char *s1, int sub)
+strsub	mysql_sum.h	/^void strsub(char *s1, int sub);$/;"	p	signature:(char *s1, int sub)
+tailCode	packetPrototype.h	/^	uint8 tailCode;$/;"	m	struct:SunPacket	access:public
+testfree	packetProcessing.c	/^void testfree(char*bufptr)$/;"	f	signature:(char*bufptr)
+testmalloc	packetProcessing.c	/^int testmalloc(int size)$/;"	f	signature:(int size)
+testmy_free	mystdlib.c	/^void testmy_free(void *ptr)$/;"	f	signature:(void *ptr)
+testmy_free	mystdlib.h	/^void testmy_free(void *ptr);$/;"	p	signature:(void *ptr)
+testmy_malloc	mystdlib.c	/^void *testmy_malloc(unsigned int size)$/;"	f	signature:(unsigned int size)
+testmy_malloc	mystdlib.h	/^void *testmy_malloc(unsigned int size);$/;"	p	signature:(unsigned int size)
+time_compare	server.c	/^int time_compare(int timef){$/;"	f	signature:(int timef)
+type	packetPrototype.h	/^	uint8 type;$/;"	m	struct:RTCRequestPacket	access:public
+udp_thread	server.c	/^void udp_thread(void){$/;"	f	signature:(void)
+uint16	packetPrototype.h	8;"	d
+uint32	packetPrototype.h	5;"	d
+uint8	packetPrototype.h	11;"	d
+updatePeriod	packetPrototype.h	/^	uint16 updatePeriod;$/;"	m	struct:PeriodicDataPacket	access:public
+user	mysql_sum.c	/^char host[100]="localhost",user[100]="pvweb",pwd[100]="pvweb",dbname[100]="PVWEB";$/;"	v
+validPound	mystdlib.c	/^char validPound[BLOCK_SIZE] = {0};$/;"	v
+voltage	packetPrototype.h	/^	uint16 voltage;$/;"	m	struct:JunctionBoxPacket	access:public
+years	packetPrototype.h	/^	uint32 years;$/;"	m	struct:DateTime	access:public
+years	packetPrototype.h	/^	uint8 years;$/;"	m	struct:RTCResponsePacket	access:public

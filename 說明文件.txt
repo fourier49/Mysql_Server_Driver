@@ -1,0 +1,21 @@
+所需安裝檔案
+apt-get install libmysqlclient-dev
+
+編譯方式
+gcc server.c packetProcessing.c mystdlib.c mysql_sum.c -o server -lmysqlclient
+
+server.c
+main file
+主要功能是接收傳送資料
+
+packetProcessing.c packetProcessing.h
+主要功能是將從socket接收的封包做整理
+
+mysql_sum.c mysql_sum.h
+主要功能是與mysql溝通(包含帳號設置)
+
+mystdlib.c mystdlib.h
+主要功能是配置記憶體
+
+packetPrototype.h
+封包型態的宣告
